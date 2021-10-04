@@ -17,18 +17,27 @@ We want to be able to find a correlation between sentiment data and stock prices
 
 ## Libraries
 ### Main
+
 ```
 python 3.x
 numpy
 pandas
+```
 praw
+
+    reddit = praw.Reddit(
+        client_id="My client id",           # You may replace this to your own client id
+        client_secret="My client secret",   # You may also replace this to your own client secret
+        user_agent="my user agent"          # This line doesn't matter
+    )
 wordcloud
 nltk
-```
+
 ### Web
 ```
 FastApi
 Create React App
 ```
 ## Demo
-[http://wsbot.hahapy.com](http://wsbot.hahapy.com)
+[https://wsbot.hahapy.com](https://wsbot.hahapy.com)
+![Demo.png](Demo.png)
