@@ -1,6 +1,6 @@
 # SentimentalStocks
 
-##Introduction
+## Introduction
 
 **Why we do this?**
 
@@ -15,8 +15,8 @@ then eventually creating a graph that has stock data,
 sentiment data, word clouds, and so on. 
 We want to be able to find a correlation between sentiment data and stock prices or prove that they don't
 
-##Libraries
-###Main
+## Libraries
+### Main
 ```
 python 3.x
 numpy
@@ -25,10 +25,10 @@ praw
 wordcloud
 nltk
 ```
-###Web
+### Web
 ```
 FastApi
 Create React App
 ```
-##Demo
+## Demo
 [http://wsbot.hahapy.com](http://wsbot.hahapy.com)
